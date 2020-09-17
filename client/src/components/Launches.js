@@ -21,7 +21,7 @@ function Launches() {
 
     return (
         <>
-            <h1 className="display-4 my-5 mx-auto w-50 text-center">Launch Missions</h1>
+            <h1 className="display-4 my-5 mx-auto w-75 text-center">Launch Missions</h1>
             <MissionKey />
             {loading ? loadingItem :
                 data.launches.map(launch => (
